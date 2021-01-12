@@ -1,3 +1,13 @@
 $("p").click(function(){
-    // add code here
+    switch (p){
+        case 1 :
+            $('p').addClass('important').;
+        break;
+
+        case 2 :
+            $('p').removeClass('important');
+            break;
+    }
+
+
 });
